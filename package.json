@@ -1,5 +1,5 @@
 {
-  "name": "illa-fe",
+  "name": "@mohamed-karawia/illa-lib",
   "version": "1.0.0",
   "scripts": {
     "rollup": "rollup -c --bundleConfigAsCjs"
@@ -25,5 +25,8 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/mohamed-karawia"
+  }
 }
